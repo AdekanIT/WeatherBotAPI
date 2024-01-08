@@ -24,6 +24,7 @@ def get_weather(message):
     else:
         bot.reply_to(message, 'This country not exist!')
 
+
 bot.polling(non_stop=True)
 
 
